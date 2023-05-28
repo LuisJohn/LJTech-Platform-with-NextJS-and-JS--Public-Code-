@@ -7,7 +7,12 @@ const Navbar = (props) => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">LJTechnology</a>
+        <a href="/" className="btn btn-ghost normal-case text-xl">LJTechnology</a>
+      </div>
+      <div className="mr-4">
+        <a href="/free/laboritory" className="font-bold">
+          Lab
+        </a>
       </div>
       <div className="mr-4">
         <a href="/" className="">
@@ -15,7 +20,7 @@ const Navbar = (props) => {
         </a>
       </div>
       <div className="">
-        <a href="/">Shop</a>
+        <a href="/store">Shop</a>
       </div>
 
       <div className="flex-none ">
